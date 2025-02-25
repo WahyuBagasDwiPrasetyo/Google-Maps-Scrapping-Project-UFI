@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
 import Table from "./Table";
 import Input from "./Input";
-
-// ✅ Pastikan aset gambar diimpor dengan benar
 import reactLogo from "../assets/react.svg";
 import electronLogo from "../assets/electron.svg.png";
-import viteLogo from "../assets/electron-vite.animate.svg"; // Pastikan file ini benar-benar ada di dalam folder assets
+import viteLogo from "../assets/electron.svg.png"; // Pastikan file ini benar-benar ada di dalam folder assets
 
 // ✅ Definisikan tipe data untuk hasil scraping
 type ScrapingResult = any; // Ubah `any` ke tipe yang sesuai jika tahu strukturnya
